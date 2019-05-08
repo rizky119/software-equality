@@ -1,0 +1,57 @@
+/*section - connect*/
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+#connect {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+ p {
+     color: #ffffff;
+ }
+
+.connect-wrapper {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    background-color: #694096;
+    padding: 2em 2em;
+    width: auto;
+    text-align: center;
+    border: 1em 1em 1em 1em;
+    position: relative;
+}
+.container-form {
+    background-image: url(images/bokeh-2990426_640.jpg);
+    background: cover;
+    border: black;
+}
+
+@media only screen and (min-width: 520px){
+    .connect-wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container {
+    background-color: #694096;
+    padding: 3em 1em;
+    background: cover;
+    width: 50%;
+    text-align: center;
+    border: 0;
+    position: relative;
+
+}}
+
+    .container-form {
+    background-image: url(images/bokeh-2990426_640.jpg);
+    background-size: cover;
+    padding: 3em 1em;
+    width: auto;
+    border: black;
+    flex-grow: 1;
+}
+
